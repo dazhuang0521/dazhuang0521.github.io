@@ -1,262 +1,170 @@
-<html>
-  <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Python | 大壮的blog</title>
-<meta name="description" content="一起和壮壮学习哈！" />
-<link rel="shortcut icon" href="https://dazhuang0521.github.io/favicon.ico">
-<link rel="stylesheet" href="https://dazhuang0521.github.io/styles/main.css">
+<!DOCTYPE html>
+<html lang="zh-CN">
+        <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,minimal-ui" />
+    <title>大壮的blog</title>
+<link rel='stylesheet' id='puma-css'  href='https://dazhuang0521.github.io/styles/main.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='puma-css'  href='https://at.alicdn.com/t/font_1306644_jwtuc2zzbrd.css' media='screen' />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<script type='text/javascript' src='https://dazhuang0521.github.io/media/scripts/jquery.js'></script>
+<script type='text/javascript' src='https://dazhuang0521.github.io/media/scripts/jquery-migrate.min.js'></script>
+        <script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+         <script >hljs.initHighlightingOnLoad();</script>
+         
+</head>
+<body class="home blog">
+	<!--加入跟随滑动的顶部-->
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-branding">
+			<h1 class="site-title">
+				<a href="https://dazhuang0521.github.io" title="大壮的blog">大壮的blog</a>
+			</h1>
+		</div>
 
-<script src="https://dazhuang0521.github.io/media/js/jquery.min.js"></script>
-<script src="https://dazhuang0521.github.io/media/js/masonry.pkgd.min.js"></script>
-<script src="https://dazhuang0521.github.io/media/js/aos.js"></script>
-<script src="https://dazhuang0521.github.io/media/js/pace.min.js"></script>
-<script src="https://dazhuang0521.github.io/media/js/view-image.min.js"></script>
-<script src="https://dazhuang0521.github.io/media/js/jquery.magnific-popup.min.js"></script>
-<script src="https://dazhuang0521.github.io/media/js/functions.js"></script>
-  </head>
-  <body>
-    <!-- start: #wrapper -->
-    <div class="wrapper">
-      
-            <header id="header" class="grid-container">
-        <!-- start: .menu-wrapper -->
-        <div class="menu-mobile"> 
-          <i class="fa fa-reorder"></i>
-        </div>
-        <div class="menu-wrapper">
-          <div class="">
-            <div class="logo">
-              <a href="https://dazhuang0521.github.io"><img src="/media/images/logoo.png" alt=""></a>
-            </div>
-            <!-- start: .main-nav -->
-
-            <nav class="main-nav grid-container grid-parent">
-              <ul id="menu-header" class="menu gradient-effect">
-                <li class=""><a href="https://dazhuang0521.github.io" class="menu">首页</a></li>
-                
-                  <li class="" >
-                    <a href="/" class="menu">
-                      首页
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="https://bm.weajs.com/api/movies?page=1&amp;secret=gR25rp9bB8YTJomz2g1F5Pyn1438e8tNEgNAhfYHFQ34gOINd2X5ELMYaQ17La4S&amp;limit=30" class="menu">
-                      观影
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="https://bm.weajs.com/api/books?page=1&amp;secret=gR25rp9bB8YTJomz2g1F5Pyn1438e8tNEgNAhfYHFQ34gOINd2X5ELMYaQ17La4S&amp;limit=30" class="menu">
-                      读书
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="/archives" class="menu">
-                      归档
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="/tags" class="menu">
-                      标签
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="/post/about" class="menu">
-                      关于
-                    </a>
-                  </li>
-                
-                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
-              </ul>
-            </nav>
-            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
-            <!-- end: .main-nav -->
-            <div class="clear"></div>
-            <div class="border hide-on-tablet hide-on-mobile"></div>
-          </div>    
-          <div class="clear"></div>
-        </div>
-        <!-- end: .menu-wrapper -->
-        <div class="clear"></div>
-      </header>
-      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
-        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
-          <div class="search-wrapper section">
-            <form id="gridea-search-form" data-update="1603367471225" action="/search/index.html" class="search-form" _lpchecked="1">
-              <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
-              <button type="submit" class="submit" aria-label="Submit">
-                <i class="fa fa-search-line"></i>
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-
-      <main id="home" class="main fullcover no-sidebar content">
-        <div class="grid-container module-wrapper enable-masonry aos-init aos-animate" data-aos="fade-up">
-        <div class="epcl-page-wrapper">
-          <div class="left-content grid-70 np-mobile widget_epcl_related_articles">
-                
-            <!-- start: .articles -->
-            <div class="main-article post">
-  <h2 class="year"># Python</h2>
-    
-      <article class="item default grid-33 tablet-grid-50 np-mobile">
-        <a href="https://dazhuang0521.github.io/post/da-zhuang-de-python-xue-xi/" class="thumb hover-effect">
-          <span class="fullimage cover" style="display: block;background-image: url('https://dazhuang0521.github.io/post-images/da-zhuang-de-python-xue-xi.jpg');"></span>
-        </a>
-        <div class="info gradient-effect">
-          <time datetime="2020-10-21">2020-10-21</time>
-          <h4 class="title usmall">
-            <a href="https://dazhuang0521.github.io/post/da-zhuang-de-python-xue-xi/">大壮的python学习</a>
-          </h4>
-        </div>
-      </article>
-
-    
-    <div class="clear"></div>
-</div>
-            <!-- end: .articles -->
-            
-                        <div class="epcl-pagination section">
-              <div class="nav">
-                
-                
-              </div>
-            </div>
-            
-          </div>
-          </div>
-        </div>
-      </main>
-
-        <footer id="footer" class="grid-container">
-        <div class="widgets row gradient-effect">
-            <div class="default-sidebar border-effect">
-              <div class="grid-33 tablet-grid-50 mobile-grid-100">
-                <section id="tag_cloud-2" class="widget widget_epcl_posts_thumbs underline-effect">
-                  <h4 class="widget-title title white bordered">最新文章</h4>
-                  
-                  
-                  <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
-                    <a href="https://dazhuang0521.github.io/post/da-zhuang-de-python-xue-xi/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://dazhuang0521.github.io/post-images/da-zhuang-de-python-xue-xi.jpg');"></span>
-                    </a>
-                    <div class="info gradient-effect">
-                      <time datetime="2020-10-21">2020-10-21</time>
-                      <h4 class="title usmall">
-                        <a href="https://dazhuang0521.github.io/post/da-zhuang-de-python-xue-xi/">大壮的python学习</a>
-                      </h4>
-                    </div>
-                    <div class="clear"></div>
-                  </article>
-                  
-                  
-                  
-                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
-                    <a href="https://dazhuang0521.github.io/post/about/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('/media/images/gridea.jpg');"></span>
-                    </a>
-                    <div class="info gradient-effect">
-                      <time datetime="2019-01-25">2019-01-25</time>
-                      <h4 class="title usmall">
-                        <a href="https://dazhuang0521.github.io/post/about/">关于</a>
-                      </h4>
-                    </div>
-                    <div class="clear"></div>
-                  </article>
-                  
-                  
-                  
-                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
-                    <a href="https://dazhuang0521.github.io/post/hello-gridea/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://dazhuang0521.github.io/post-images/hello-gridea.png');"></span>
-                    </a>
-                    <div class="info gradient-effect">
-                      <time datetime="2018-12-12">2018-12-12</time>
-                      <h4 class="title usmall">
-                        <a href="https://dazhuang0521.github.io/post/hello-gridea/">Hello Gridea</a>
-                      </h4>
-                    </div>
-                    <div class="clear"></div>
-                  </article>
-                  
-                  
-                  <div class="clear"></div>
-                </section>
-              </div>
-
-              <div class="grid-33 tablet-grid-50 mobile-grid-100">
-                <section id="tag_cloud-2" class="widget widget_tag_cloud underline-effect">
-                  <h4 class="widget-title title white bordered">标签云</h4>
-                  <div class="tagcloud">
+		<a class="primary-nav-trigger" href="javascript:void(0)">
+			<span class="menu-icon"></span>
+		</a>
+		
+	</header>
+    	<div class="site-navigation-wrapper">
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<ul class="primary-nav">
                     
-                      <a href="https://dazhuang0521.github.io/tag/n2JnG7RrF/" class="ctag ctag-0 ctag-n2JnG7RrF" aria-label="">Python</a>
-                    
-                      <a href="https://dazhuang0521.github.io/tag/rCXkCepNn/" class="ctag ctag-1 ctag-rCXkCepNn" aria-label="">Gridea</a>
-                    
-                  </div>
-                  <div class="clear"></div>
-                </section>
-              </div>
-
-              <div class="grid-33 tablet-grid-50 mobile-grid-100">
-                <section id="epcl_about-2" class="widget widget_epcl_about underline-effect">
-                  <h4 class="widget-title title white bordered">关于我</h4>
-                  <div class="avatar">
-                    <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://dazhuang0521.github.io/images/avatar.png);"></span></a>
-                  </div>
-                  <div class="info">
-                    <h4 class="title small author-name gradient-effect no-margin"><a href="">大壮的blog</a></h4>
-                    <p class="founder">一起和壮壮学习哈！</p>
-                    <div class="social">
-                      
-                          
-                            <a href="https://github.com/dazhuang0521" class="translate-effect" target="_blank"><i class="fa fa-github"></i></a>
-                        
-                      
-                        
-                      
-                        
-                      
-                        
-                      
-                        
-                      
-                    </div> 
-                  </div>
-                  <div class="clear"></div>
-                  </section>
-              </div>
-
-            </div>
-            <div class="clear"></div>
-        </div>
-
-        <div class="logo">
-          <a href="https://dazhuang0521.github.io"><img src="/media/images/gridea.png" alt=""></a>
-        </div>
-        <p class="published border-effect">
-          ©2019 共 3 篇文章
-          <br/>
-          Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
-        </p>
-        
-        <a href="javascript:void(0)" id="back-to-top" class="epcl-button dark" style="display:none">
-          <i class="fa fa-arrow"></i>
-        </a>
-    </footer>
-    
-    <div class="clear"></div>
-
-        
-
+				<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="首页" href="/">首页</a></li>
+                
+				<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="观影" href="https://bm.weajs.com/api/movies?page=1&amp;secret=gR25rp9bB8YTJomz2g1F5Pyn1438e8tNEgNAhfYHFQ34gOINd2X5ELMYaQ17La4S&amp;limit=30">观影</a></li>
+                
+				<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="读书" href="https://bm.weajs.com/api/books?page=1&amp;secret=gR25rp9bB8YTJomz2g1F5Pyn1438e8tNEgNAhfYHFQ34gOINd2X5ELMYaQ17La4S&amp;limit=30">读书</a></li>
+                
+				<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="归档" href="/archives">归档</a></li>
+                
+				<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="标签" href="/tags">标签</a></li>
+                
+				<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a title="关于" href="/post/about">关于</a></li>
+                
+	
+			</ul>
+		</nav>			
+	</div>
+	<!--跟随滑动的顶部结束-->
+	<!--大屏banner开始-->
+	
+	<div class="site-banner u-textAlignCenter hasImage" style="background-image:url()">
+		<div class="fade-cover"></div>
+		<div class="banner-txt">
+			<h2>大壮的blog</h2>
+		</div>
+		<div class="banner-txt">
+			<p>一起和壮壮学习哈！</p>
+		</div>	
+	</div>
+	<!--大屏banner结束-->
+	<div class="site-main">
+	<div class="surface-content">    <main class="main-content">
+        <section class="blockGroup">
+                
+            <article class="block block--inset block--list">
+    <h2 class="block-title post-featured" itemprop="headline">
+        <a href="https://dazhuang0521.github.io/post/da-zhuang-de-python-xue-xi/">大壮的python学习</a>
+    </h2>
+    <div class="block-postMetaWrap u-textAlignCenter">
+        <time>2020-10-21</time>
     </div>
-    <!-- end: #wrapper -->
-  </body>
+    <div class="block-snippet block-snippet--subtitle grap" itemprop="about">
+            
+                    <p class="with-img"><img width="1139" height="759" src="https://dazhuang0521.github.io/post-images/da-zhuang-de-python-xue-xi.jpg" class="attachment-full size-full wp-post-image" alt="大壮的python学习" /></p>
+                    
+                    <h1 id="持续更新中">（持续更新中···）</h1>
+
+                <p class="u-textAlignCenter"><a class="more-link" href="https://dazhuang0521.github.io/post/da-zhuang-de-python-xue-xi/" title="大壮的python学习">READ MORE</a></p>
+    </div>
+    <div class="block-footer">
+        In  <a href="https://dazhuang0521.github.io/tag/n2JnG7RrF/" rel="category tag">Python</a>.  
+        <div class="block-footer-inner">
+                59 min read .
+        </div>
+    </div>
+</article>
+
+</section>
+
+    </main>
+</div></div>
+<script type="text/javascript">
+//点击加载更多
+jQuery(document).ready(function($) {
+    //点击下一页的链接(即那个a标签)
+    $(' .button').click(function() {
+        $this = $(this);
+        $this.addClass('loading').text('正在努力加载'); //给a标签加载一个loading的class属性，用来添加加载效果
+        var href = $this.attr('href'); //获取下一页的链接地址
+        if (href != undefined) { //如果地址存在
+            $.ajax({ //发起ajax请求
+                url: href,
+                //请求的地址就是下一页的链接
+                type: 'get',
+                //请求类型是get
+                error: function(request) {
+                    //如果发生错误怎么处理
+                },
+                success: function(data) { //请求成功
+                    $this.removeClass('loading').text('点击查看更多'); //移除loading属性
+                    var $res = $(data).find('.block--list '); //从数据中挑出文章数据，请根据实际情况更改
+                    $('.blockGroup').append($res.fadeIn(500)); //将数据加载加进posts-loop的标签中。
+                    var newhref = $(data).find(' .button').attr('href'); //找出新的下一页链接
+                    if (newhref != undefined) {
+                        $('.button').attr('href', newhref);
+                    } else {
+                        $('.button').remove(); //如果没有下一页了，隐藏
+                    }
+                }
+            });
+        }
+        return false;
+    });
+});
+</script>
+	<footer class="site-footer u-textAlignCenter">
+    	<div class="footer-branding">
+            <a href="https://dazhuang0521.github.io" title="大壮的blog">大壮的blog</a>
+									<p class="site-description">这是个拥挤的地方</p>
+			         </div>
+		 <hr />
+		 <div class="social-links">
+		                       
+                            
+                           
+                            
+                           
+                            
+                           
+                            
+                           
+                            
+                           
+                            
+                           
+                            
+                           
+                            
+                           
+                            
+                           
+                            
+                           
+                            
+                           
+                            
+                           
+				</div>
+        <div class="footer-copy">
+                 2020 | 乌克兰大壮 | Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+        </div>
+
+    </footer>
+	<div class="back-to-top u-hide" onclick="backToTop();"><i class="iconfont icon-xiangshang"></i></div>
+
+<script type='text/javascript' src='https://dazhuang0521.github.io/media/scripts/main.js'></script>
+</body>
 </html>
