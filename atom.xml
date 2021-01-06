@@ -2,14 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dazhuang0521.github.io</id>
     <title>大壮的blog</title>
-    <updated>2020-10-23T06:54:10.963Z</updated>
+    <updated>2021-01-06T12:51:18.771Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dazhuang0521.github.io"/>
     <link rel="self" href="https://dazhuang0521.github.io/atom.xml"/>
     <subtitle>微笑面对甲方，不扔罐子不扎车胎</subtitle>
     <logo>https://dazhuang0521.github.io/images/avatar.png</logo>
     <icon>https://dazhuang0521.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 大壮的blog</rights>
+    <rights>All rights reserved 2021, 大壮的blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Kali镜像下载地址]]></title>
+        <id>https://dazhuang0521.github.io/post/kali-jing-xiang-xia-zai-di-zhi/</id>
+        <link href="https://dazhuang0521.github.io/post/kali-jing-xiang-xia-zai-di-zhi/">
+        </link>
+        <updated>2021-01-06T12:45:59.000Z</updated>
+        <content type="html"><![CDATA[<p>官：<br>
+地址一<br>
+https://www.kali.org/downloads/<br>
+地址二<br>
+http://old.kali.org/kali-images/<br>
+地址三（树莓派等arm镜像）<br>
+https://www.offensive-security.com/kali-linux-arm-images/<br>
+https://www.kali.org/docs/arm/</p>
+<p>非官：<br>
+Kali2020点这里-&gt; http://mirrors.163.com/kali-images/kali-2020.1/</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[大壮的python学习]]></title>
         <id>https://dazhuang0521.github.io/post/da-zhuang-de-python-xue-xi/</id>
