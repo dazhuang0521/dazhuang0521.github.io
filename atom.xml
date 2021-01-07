@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dazhuang0521.github.io</id>
     <title>大壮的blog</title>
-    <updated>2021-01-06T12:58:10.178Z</updated>
+    <updated>2021-01-07T15:00:41.754Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dazhuang0521.github.io"/>
     <link rel="self" href="https://dazhuang0521.github.io/atom.xml"/>
@@ -25,7 +25,8 @@ http://old.kali.org/kali-images/<br>
 https://www.offensive-security.com/kali-linux-arm-images/<br>
 https://www.kali.org/docs/arm/</p>
 <p>非官：<br>
-Kali2020点这里-&gt; http://mirrors.163.com/kali-images/kali-2020.1/</p>
+清华源：https://mirrors.tuna.tsinghua.edu.cn/kali-images/<br>
+Kali2020点这里： http://mirrors.163.com/kali-images/kali-2020.1/</p>
 ]]></content>
     </entry>
     <entry>
